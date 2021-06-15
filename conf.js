@@ -12,7 +12,7 @@ exports.config = {
     },
     suites:
     {
-        Smoke: ['calculator.js','locators.js'],
+        Smoke: ['locators.js'],
         Regression: 'jsobject2.js'
     },
     /*jasmineNodeOpts:
