@@ -1,0 +1,22 @@
+{
+  "name": "protractorlearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alert_frame.js",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7"
+  },
+  "scripts": {
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver-start": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_modules/.bin/protractor conf.js",
+    "Smokesuite": "./node_modules/.bin/protractor conf.js --suite Smoke",
+    "Regression": "./node_modules/.bin/protractor conf.js --suite Regression",
+    "start": "npm run webdriver-update && npm run webdriver-start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
